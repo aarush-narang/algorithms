@@ -8,7 +8,7 @@ def findTrialsLighterCoin(listOfNums, trialsCt):
     rightList = listOfNums[listLen // 2:(listLen // 2) * 2]
     remainder = listOfNums[listLen - 1] if listLen % 2 == 1 else None
 
-    print(leftList, rightList, remainder)
+    # print(leftList, rightList, remainder)
 
     if(sum(leftList) == sum(rightList)): return trialsCt, remainder
     elif(len(leftList) == 1 and len(rightList) == 1): return trialsCt, max(leftList[0], rightList[0])
