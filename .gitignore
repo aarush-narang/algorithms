@@ -1,3 +1,6 @@
 .vscode/launch.json
 .vscode/settings.json
 .vscode/tasks.json
+
+# ignore compiled files
+*.exe
